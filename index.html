@@ -5,12 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWELVEGAUGES</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="icon" type="image/x-icon" href="/img/FAVICON.png">
+    <link rel="icon" type="image/x-icon" href="/imagez/favicon.gif">
     <meta name="robots" content="noindex, nofollow">
   </head>
 <body>
 
-WHERE YOUR CODE GOES
+<div class="container">
+
+<div id="header">
+<img src="/imagez/twelvegaugess.png">
+</div>
+
+<!----->
+
+<div id="scrolly">
+    <marquee><span style="background: #ff000035; padding: 0px 10px;">WARNING ! not suitable or intended for children and those with weak stomachs .  </span></marquee>
+    
+</div>
+
+<!---->
+
+<div id="lbox">
+
+</div>
+
+<!---->
+
+<div id="rtext">
+    Hello , I'm Andre . Trying my hand at the whole website thing . I'm not very good at coding but I fucking hate social media , hopefully this will be a more private place I can use to be myself and do the things I like without having to bother with dealing with people or censorship . So if you're seeing this site congrats , I like you . My lovely boyfriend is my biggest inspiration and my muse , without it this site would not be possible nor would my desire to create a space like this . Check out her site <a href="https://archangelism.github.io" id="angel"> here</a> ! Hoping to log my shit and share my shit , check it all out using the buttons bellow . 
+</div> 
+
+<!---->
+
+<div id="rnav">
+    <img src="/imagez/aboutbutt.png"> <img src="/imagez/journalbutt.png"> <img src="/imagez/stuffbutt.png"> <img src="/imagez/artbutt.png"> <img src="/imagez/thingsbutt.png">
+</div>
+
+<!----->
+
+<div id="btext">
+  Im not really sure what to put here or say . So whatever . My accounts keep getting nuked ( people are too worried about fake victims and fake violence ) ... I want a corner of the internet where I don't have to worry about all that but can still share myself with friends I care about . Will be as honest as I can be , or at least try to be . I want this to immortalize me and who I was , am , and will be . May this site grow with me as I move forward . I've never had a space where I felt I could truly do that so be warned . You will get all of me I can bear to share . 
+  
+</div>
+
+<!---->
+
+<div id="school">
+<img src="imagez/school.png">
+</div>
+</div>
+<img src="/imagez/12gauge.png" id="twelvegauge">
+<img src="/imagez/13gauge.png" id="thirteengauge">
+
+<div id="starbox">
+  <img src="/imagez/startop.png" id="startop">
+  <img src="imagez/starbottom.png" id="starbottom">
+</div>
+
+<script>
+  // Array of frame URLs for the animated favicon
+  const frameUrls = [
+    '/imagez/fav1.png',
+    '/imagez/fav2.png',
+    '/imagez/fav3.png',
+    '/imagez/fav4.png',
+    '/imagez/fav5.png',
+    '/imagez/fav6.png',
+    // Add more frame URLs here
+];
+
+let currentFrameIndex = 0;
+
+function updateFavicon() {
+const newFaviconUrl = frameUrls[currentFrameIndex];
+const linkTag = document.querySelector("link[rel='icon']");
+
+linkTag.href = newFaviconUrl;
+
+currentFrameIndex = (currentFrameIndex + 1) % frameUrls.length;
+}
+
+// Start the animation
+setInterval(updateFavicon, 100); // Change interval as needed
+</script>
 
 </body>
 </html>

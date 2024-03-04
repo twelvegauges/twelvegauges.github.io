@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+body {
+    background: black;
+    color: #ff0000;
+    font-size: 19px;
+    text-align: center;
+}
+
+.container {
+    height: 850px;
+    width: 800px;
+    margin: auto auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+div.container:before {
+  content: "";
+  position: absolute;
+  border: 12px dashed #FF0000;
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+}
+
+
+div {
+  overflow: hidden;
+  position: relative;
+
+
+  text-align:center;
+  padding:10px;
+
+}
+
+#startop {
+  position: relative;
+  top: -55px;
+  left: -320px;
+}
+
+#header {
+width: 100%;
+height: 80px;
+margin-top: 20px;
+}
+
+
+#scrolly {
+width: 97%;
+margin-top: 10px;
+}
+
+
+marquee {
+  width: 100%;
+}
+
+#lbox {
+  background-image: url("/imagez/me4.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 331px;
+  width: 267px;
+  float: left;
+  margin-left: 45px;
+}
+
+#rtext {
+    float: left;
+    width: 52%;
+    margin-left: 3px;
+   margin-top: 15px;
+   
+}
+
+#angel {
+  text-decoration: none;
+  color: #ff0000;
+  text-shadow: 0px 0px 8px, 0px 0px 12px;
+  font-weight: bold;
+}
+
+#angel:hover {
+  text-decoration: none;
+    color: #ff6868;
+    text-shadow: 0px 0px 8px, 0px 0px 12px;
+    transition: ease-in-out 0.5s;
+    animation: shakey 1s infinite;
+    -webkit-animation: shakey 1s infinite;
+    -moz-animation:shakey 1s infinite;
+    -o-animation: shakey 1s infinite;
+    -ms-transition: shakey 1s infinite; 
+    display: inline-block;
+    
+}
+
+#rnav {
+    float: right;
+    clear: both;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+
+#btext {
+  float: left;
+  width: 92%;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+
+#school {
+  float: left;
+  clear: both;
+  margin-top: -25px;
+  margin-left: 15px;
+}
+
+#starbottom {
+position: relative;
+bottom: -750px;
+right: -320px;
+}
+
+#twelvegauge {
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  height: 90%;}
+
+#thirteengauge {
+  position: fixed;
+  top: 50px;
+  right: 200px;
+  height: 90%;}
+
+  #starbox {
+    height: 850px;
+    width: 800px;
+    overflow: visible;
+    margin: auto auto;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+* {
+cursor: url(/imagez/point2.png), auto !important;
+}
+
+#scrolly {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes shakey {
+  0% {
+  transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+  transform: translate(-0px, -1px) rotate(-1deg);
+  }
+  20% {
+  transform: translate(-2px, 0px) rotate(1deg);
+  }
+  30% {
+  transform: translate(2px, 1px) rotate(0deg);
+  }
+  40% {
+  transform: translate(0px, -0px) rotate(1deg);
+  }
+  50% {
+  transform: translate(-0px, 1px) rotate(-1deg);
+  }
+  60% {
+  transform: translate(-2px, 0px) rotate(0deg);
+  }
+  70% {
+  transform: translate(2px, 0px) rotate(-1deg);
+  }
+  80% {
+  transform: translate(-0px, -0px) rotate(1deg);
+  }
+  90% {
+  transform: translate(0px, 1px) rotate(0deg);
+  }
+  100% {
+  transform: translate(0px, -1px) rotate(0deg);
+  }
+  }
