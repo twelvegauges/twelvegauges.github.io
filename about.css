@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    cursor: url("/imagez/point2.png"), auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+    background: black;
+    color: #ff0000;
+    font-size: 19px;
+
+}
+
+.me {
+    height: 828px;
+    width: 539px;
+    margin-left: 250px;
+    margin-top: 55px;
+    position: fixed;
+    float: left;
+}
+  #textbox {
+    margin-right: 250px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 70px;
+    width: 40%;
+    float: right;
+  }
